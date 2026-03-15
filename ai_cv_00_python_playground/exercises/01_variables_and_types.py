@@ -71,7 +71,7 @@ def main() -> None:
     print("same list:", same_list)
     print()
 
-    # Immutable behavior of list using copy
+    # Using copy to create an independent list (changes to the copy don't affect the original)
     values_copy = values.copy()
     values_copy.append(5)
     print("Values:", values)  # Original list remains unchanged
