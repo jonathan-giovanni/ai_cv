@@ -1,0 +1,11 @@
+id,filename,split,label,score,width,height,camera_id,scene,validated,bbox_count
+1,cam01_frame_0001.jpg,train,car,0.98,1920,1080,cam01,urban_day,true,3
+2,cam01_frame_0002.jpg,train,bus,0.93,1920,1080,cam01,urban_day,true,1
+3,cam02_frame_0140.jpg,train,truck,0.89,1280,720,cam02,highway_day,true,2
+4,cam02_frame_0141.jpg,train,motorcycle,0.91,1280,720,cam02,highway_day,false,1
+5,cam03_frame_1010.jpg,validation,pedestrian,0.87,1920,1080,cam03,crosswalk_evening,true,4
+6,cam03_frame_1011.jpg,validation,bicycle,0.90,1920,1080,cam03,crosswalk_evening,true,2
+7,cam04_frame_2005.jpg,validation,car,0.95,1024,768,cam04,parking_lot,true,5
+8,cam05_frame_0788.jpg,test,truck,0.86,1280,720,cam05,industrial_gate,false,2
+9,cam05_frame_0789.jpg,test,bus,0.88,1280,720,cam05,industrial_gate,true,1
+10,cam06_frame_3001.jpg,test,pedestrian,0.84,640,480,cam06,low_light_street,false,3

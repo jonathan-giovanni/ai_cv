@@ -1,0 +1,19 @@
+dataset_name: urban_vehicle_detection_v1
+task_type: object_detection
+domain: traffic_monitoring
+capture_device: fixed_ip_camera
+image_resolution: 1920x1080
+annotation_format: yolo
+train_images: 1240
+validation_images: 180
+test_images: 220
+classes: car, bus, truck, motorcycle, bicycle, pedestrian
+augmentation: horizontal_flip, brightness_shift, blur
+labeling_status: reviewed
+average_objects_per_image: 6.4
+night_samples_percentage: 18
+occlusion_level: medium
+weather_conditions: sunny, cloudy, rain
+false_positive_risk: reflections_on_windows
+deployment_target: edge_gpu_inference
+notes: dataset_created_for_foundational_computer_vision_training
