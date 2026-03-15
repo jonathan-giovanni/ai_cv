@@ -64,7 +64,7 @@ def main() -> None:
     # Mutable behavior of lists
     values = [1, 2, 3]
     alias = values  # alias points to the same list object
-    values.append(4)  # Modifying the list through 'values' also modifies '
+    values.append(4)  # Modifying the list through values also modifies alias because they reference the same list object
     print("Values:", values)
     print("Alias:", alias)
     same_list = values is alias  # True, both variables point to the same list object
